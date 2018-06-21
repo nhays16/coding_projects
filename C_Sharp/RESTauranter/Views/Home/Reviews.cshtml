@@ -1,0 +1,7 @@
+﻿@foreach(var review in ViewBag.AllReviews)
+{
+    <h2>Review for: @review.restaurant     @review.stars stars</h2>
+    <h3>Reviewer: @review.reviewer, @review.created_at</h3>
+        <p>@review.content</p>
+    <hr>
+}

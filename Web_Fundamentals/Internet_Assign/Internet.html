@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset= "utf-8">
+        <title>Internet Assignment</title>
+        <link rel="stylesheet" type="text/css" href="internet_css.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div>
+                <img src="globe.png" alt="globe">
+                <h1>The Inter<span>net</span></h1>
+                <h2>The World Wide Web</h2>
+            </div>
+
+            <div id="sidebar">
+                <h3>So, what's an <span>internet?</span></h3>
+                <p>An <span>inter</span>connected <span>Net</span>work of computersall around the world!</p>
+                <a id="sbbutton1" href="#">WATCH A VIDEO</a>
+                <a id="sbbutton2" href="#">MORE RESOURCES</a>
+                <div id="sbad">
+                    <div id="ad">
+                        <p>Reinvent your career in just 14 weeks</p>
+                        <img src="ninja.png" alt="ninja">
+                        <a id="sbbutton3" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="maincontent">
+                <div id="mcheader">
+                    <img id="home" src="home.png" alt="home">
+                    <p>DNS</p>
+                    <img id="phone" src="phone.png" alt="phone">
+                    <ul>
+                        <li>Mon - Fri 9 a.m. - 5 p.m. (EST)</li>
+                        <li id="ph">855.967.3787</li>
+                        <li>International +1.617.963.0555</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="title">Clients and Servers</p>
+                    <p class="content">Computers connected to the <span class="blue">Web</span> are called <span class="black">clients</span> and <span class="black">servers.</span></p>
+                    <ul class="content">
+                        <li><span class="blue">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="blue">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                        <li><span class="blue">Servers</span> are computers that store <span class="blue">webpages</span>, <span class="blue">sites</span>, or <span class="blue">apps</span>. When a client device wants to accedd a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                    </ul>
+                    <img id="c-s" src="client_server.jpg" alt="client-server">
+                    <p class="title">So What Actually Happens?</p>
+                    <ol class="content">
+                        <li>The browser goes to the <span class="blue">DNS server</span> and finds the real address of the <span class="blue">server</span> that the website lives on.</li>
+                        <li>The browser sends an <span class="blue">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                        <li>If the server approves the client's request, the server sends the client a <span class="blue">"200 OK" message</span>, which means "Permission granted! Here you go!", adn then starts sending the website's files to the browser as a series of small chunks.</li>
+                        <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                    </ol>
+                </div>
+                <div id="box">
+                    <img src="html.png" alt="HTML">
+                    <div id="info">
+                        <p class="title">The Big 3 - HTML, CSS, JavaScript</p>
+                        <p>While the server can process information in many different languages, the files that they serve to the client are <span>always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+                        <p>Learn more about the Big 3 <a class="blue" href="#">here</a>!</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </body>
+</html>

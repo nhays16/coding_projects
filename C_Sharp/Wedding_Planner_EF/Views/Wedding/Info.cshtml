@@ -1,0 +1,12 @@
+@model Wedding
+<nav>
+    <h1>@Model.bride <span>and</span> @Model.groom <span>Wedding</span></h1>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/logout">Logout</a>
+</nav>
+<h3>Date: @Model.date.ToString("D")</h3>
+<h3>Guests:</h3>
+@foreach(var guest in Model.Attendees)
+{
+    <p>@guest.Attendee.first_name @guest.Attendee.last_name</p>
+}

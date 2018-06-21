@@ -1,0 +1,40 @@
+@model DashboardModel
+<nav>
+<h1>Hi @Model.LoggedUser.alias!</h1>
+<a href="/logout">Logout</a>
+</nav>
+
+<form asp-controller="Ideas" asp-action="create" method="post">
+    <div class="form-group">
+        <span asp-validation-for="NewIdea.content"></span>
+        <textarea asp-for="NewIdea.content">Post Something Witty Here...</textarea>
+    </div>
+    <input type="hidden" asp-for="NewIdea.user_id" value="@Model.LoggedUser.user_id">
+    <input type="submit" value="Idea!">
+</form>
+<hr>
+<h3>Popular Ideas</h3>
+@foreach(var idea in Model.PopularIdeas)
+{
+    if(idea.user_id == Model.LoggedUser.user_id)
+    {
+        <p><a href="/users/@idea.creator.user_id">@idea.creator.alias</a> says:</p>
+        <p>@idea.content</p>
+        <p><a href="/bright_ideas/delete/@idea.idea_id">Delete</a>   <a href="/bright_ideas/@idea.idea_id">@idea.likes.Count</a> likes</p>
+        <br>
+    }
+    else if(idea.likes.Any(l => l.user_id == Model.LoggedUser.user_id))
+    {
+        <p><a href="/users/@idea.creator.user_id">@idea.creator.alias</a> says:</p>
+        <p>@idea.content</p>
+        <p>Liked!   <a href="/bright_ideas/@idea.idea_id">@idea.likes.Count</a> likes</p>
+        <br>
+    }
+    else
+    {
+        <p><a href="/users/@idea.creator.user_id">@idea.creator.alias</a> says:</p>
+        <p>@idea.content</p>
+        <p><a href="/like/@idea.idea_id">Like</a>   <a href="/bright_ideas/@idea.idea_id">@idea.likes.Count</a> likes</p>
+        <br>
+    }
+}

@@ -1,0 +1,40 @@
+@model DashboardViewModel
+<nav>
+    <h1>Welcome to the Wedding Planner</h1>
+    <a href="/logout">Logout</a>
+</nav> 
+<table>
+    <thead>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guest</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+    @foreach(var wedding in Model.AllWeddings)
+    {
+        if(wedding.user_id == Model.UserId.user_id)
+        {
+            <td><a href="/wedding/@wedding.wedding_id">@wedding.bride & @wedding.groom</a></td>
+            <td>@wedding.date.ToString("D")</td>
+            <td>@wedding.Attendees.Count</td>
+            <td><a href="/wedding/delete/@wedding.wedding_id">Delete</a></td>
+        }
+        else if(wedding.Attendees.Any(a => a.user_id == Model.UserId.user_id))
+        {
+            <td><a href="/wedding/@wedding.wedding_id">@wedding.bride & @wedding.groom</a></td>
+            <td>@wedding.date.ToString("D")</td>
+            <td>@wedding.Attendees.Count</td>
+            <td><a href="/wedding/unattend/@wedding.wedding_id">Un-Attend</a></td>
+        }
+        else
+        {
+            <td><a href="/wedding/@wedding.wedding_id">@wedding.bride & @wedding.groom</a></td>
+            <td>@wedding.date.ToString("D")</td>
+            <td>@wedding.Attendees.Count</td>
+            <td><a href="/wedding/attend/@wedding.wedding_id">RSVP</a></td>
+        }
+    }
+    </tbody>
+</table>
+<button><a href="/wedding/plan">New Wedding</a></button>

@@ -1,0 +1,10 @@
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\bin\HPD\Debug\netcoreapp2.0\Collections_Practice.deps.json
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\bin\HPD\Debug\netcoreapp2.0\Collections_Practice.runtimeconfig.json
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\bin\HPD\Debug\netcoreapp2.0\Collections_Practice.runtimeconfig.dev.json
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\bin\HPD\Debug\netcoreapp2.0\Collections_Practice.dll
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\bin\HPD\Debug\netcoreapp2.0\Collections_Practice.pdb
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\obj\HPD\Debug\netcoreapp2.0\Collections_Practice.csproj.CoreCompileInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\obj\HPD\Debug\netcoreapp2.0\Collections_Practice.AssemblyInfoInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\obj\HPD\Debug\netcoreapp2.0\Collections_Practice.AssemblyInfo.cs
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\obj\HPD\Debug\netcoreapp2.0\Collections_Practice.dll
+C:\Users\Shannon\Desktop\C_Sharp\Collections_Practice\obj\HPD\Debug\netcoreapp2.0\Collections_Practice.pdb

@@ -1,0 +1,10 @@
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\bin\HPD\Debug\netcoreapp2.0\Basic13.deps.json
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\bin\HPD\Debug\netcoreapp2.0\Basic13.runtimeconfig.json
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\bin\HPD\Debug\netcoreapp2.0\Basic13.runtimeconfig.dev.json
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\bin\HPD\Debug\netcoreapp2.0\Basic13.dll
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\bin\HPD\Debug\netcoreapp2.0\Basic13.pdb
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\obj\HPD\Debug\netcoreapp2.0\Basic13.csproj.CoreCompileInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\obj\HPD\Debug\netcoreapp2.0\Basic13.AssemblyInfoInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\obj\HPD\Debug\netcoreapp2.0\Basic13.AssemblyInfo.cs
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\obj\HPD\Debug\netcoreapp2.0\Basic13.dll
+C:\Users\Shannon\Desktop\C_Sharp\Basic13\obj\HPD\Debug\netcoreapp2.0\Basic13.pdb

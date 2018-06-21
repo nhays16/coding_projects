@@ -1,0 +1,14 @@
+﻿
+<h1>Welcome to QuotingDojo</h1>
+@if(ViewBag.Error != null)
+    {
+    <p style="color:red">@ViewBag.Error</p>
+    }
+
+<h3>Add a quote here:</h3>
+<form action="/quotes" method="post">
+    Your name:<input type="text" name="name">
+    Your quote: <textarea type="text" name="content" rows="10" cols="30"></textarea>
+    <input type="submit" value="Add my quote!">
+</form>
+<a href="/quotes"><button>Skip to quotes!</button></a>

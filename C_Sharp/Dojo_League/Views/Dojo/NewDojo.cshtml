@@ -1,0 +1,19 @@
+<h1>Register A Dojo</h1>
+<form asp-action="createDojo" asp-controller="Dojo" method="post">
+    <div>
+        <span asp-validation-for="dojo_name"></span>
+        <label asp-for="dojo_name"></label>
+        <input asp-for="dojo_name">
+    </div>
+    <div>
+        <span asp-validation-for="location"></span>
+        <label asp-for="location"></label>
+        <input asp-for="location">
+    </div>
+    <div>
+        <span asp-validation-for="desc"></span>
+        <label asp-for="desc"></label>
+        <textarea asp-for="desc" rows='10' cols='30'></textarea>
+    </div>
+    <input type='submit' value="Add">
+</form>

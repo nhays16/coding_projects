@@ -1,0 +1,19 @@
+.stats{
+    display: inline-block;
+    text-align: center;
+}
+
+#boxed{
+    border: 2px solid black;
+    height: 200px;
+    text-align: center;
+}
+
+.button_display{
+    display: inline-block;
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+}

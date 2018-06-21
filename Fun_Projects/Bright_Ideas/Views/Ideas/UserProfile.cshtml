@@ -1,0 +1,11 @@
+@model User
+<nav>
+    <a href="/bright_ideas">Bright Ideas</a>
+    <a href="/logout">Logout</a>
+</nav>
+<h2>Name: @Model.name</h2>
+<h2>Alias: @Model.alias</h2>
+<h2>Email: @Model.email</h2>
+<hr>
+<h3>Total Number of Posts: @Model.MyIdeas.Count</h3>
+<h3>Total Number of Likes: @Model.MyLikes.Count</h3>

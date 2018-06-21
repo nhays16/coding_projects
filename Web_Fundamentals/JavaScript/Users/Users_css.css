@@ -1,0 +1,28 @@
+form{
+    width: 280px;
+    text-align: right;
+}
+
+input{
+    margin-top: 10px;
+  
+}
+
+h1{
+    border-bottom: 5px solid darkslategrey;
+    width: 300px
+}
+
+th{
+    height: 20px;
+    width: 125px;
+    border: 2px solid darkslategrey;
+}
+
+
+
+table{
+    width: 500px;
+    border: 2px solid darkslategrey;
+}
+

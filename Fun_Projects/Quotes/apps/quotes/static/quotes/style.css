@@ -1,0 +1,23 @@
+#wrapper{
+    width: 1024px;
+    margin: auto;
+}
+
+
+#quotes{
+    border: 2px solid black;
+    display: inline-block;
+    overflow :auto;
+    width: 450px;
+}
+
+#faves{
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+    width: 450px
+}
+
+.singlequotes{
+    border: 2px solid black;
+}

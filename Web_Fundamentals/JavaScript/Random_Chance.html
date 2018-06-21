@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Random Chance</title>
+        <script type="text/javascript"></script>
+        <script>
+            function Slots(coins){
+                while(coins > 0){
+                    var win = Math.floor(Math.random()*100);
+                    if(win == 1){
+                        var winnings = Math.random()*50 + 50
+                        console.log(winnings + coins)
+                    }
+                }
+                return 0
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

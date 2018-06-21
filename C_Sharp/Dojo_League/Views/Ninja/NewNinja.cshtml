@@ -1,0 +1,40 @@
+<h1>Register A Ninja</h1>
+<form asp-action="createNinja" asp-controller="Ninja" method="post">
+    <div>
+        <span asp-validation-for="name"></span>
+        <label asp-for="name"></label>
+        <input asp-for="name">
+    </div>
+    <div>
+        <span asp-validation-for="level"></span>
+        <label asp-for="level"></label>
+        <select asp-for="level" size="10">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+    <div>
+        <span asp-validation-for="dojo"></span>
+        <label>Assigned Dojo?</label>
+        <select asp-for="dojo">
+        @foreach(var dojo in ViewBag.AllDojos)
+        {
+            <option value="@dojo.dojo_id">@dojo.dojo_name</option>
+        }
+        </select>
+    </div>
+    <div>
+        <span asp-validation-for="description"></span>
+        <label asp-for="description"></label>
+        <textarea asp-for="description" rows='10' cols='30'></textarea>
+    </div>
+    <input type='submit' value="Add">
+</form> 

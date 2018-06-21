@@ -1,0 +1,10 @@
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\bin\HPD\Debug\netcoreapp2.0\first_csharp.deps.json
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\bin\HPD\Debug\netcoreapp2.0\first_csharp.runtimeconfig.json
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\bin\HPD\Debug\netcoreapp2.0\first_csharp.runtimeconfig.dev.json
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\bin\HPD\Debug\netcoreapp2.0\first_csharp.dll
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\bin\HPD\Debug\netcoreapp2.0\first_csharp.pdb
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\obj\HPD\Debug\netcoreapp2.0\first_csharp.csproj.CoreCompileInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\obj\HPD\Debug\netcoreapp2.0\first_csharp.AssemblyInfoInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\obj\HPD\Debug\netcoreapp2.0\first_csharp.AssemblyInfo.cs
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\obj\HPD\Debug\netcoreapp2.0\first_csharp.dll
+C:\Users\Shannon\Desktop\C_Sharp\first_csharp\obj\HPD\Debug\netcoreapp2.0\first_csharp.pdb

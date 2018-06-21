@@ -1,0 +1,44 @@
+﻿@for(var info in ViewBag.Dojo)
+{
+    <h1>@info.dojo_name</h1>
+    <p>Dojo Location: @info.location</p>
+    <p>Information: @info.desc</p>
+}
+
+<h2>Current Members</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Ninja</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var ninja in ViewBag.myNinjas)
+    {
+        <tr>
+            <td><a href="">@ninja.name</a></td>
+            <td><a asp-action="banish" asp-controller="Ninja">Banish!</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<h2>Rogue Ninjas</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Ninja</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var ninja in ViewBag.RogueNinjas)
+    {
+        <tr>
+            <td><a href="">@ninja.name</a></td>
+            <td><a asp-action="recruit" asp-controller="Ninja">Recruit!</a></td>
+        </tr>
+    }
+    </tbody>
+</table>

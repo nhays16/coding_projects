@@ -1,0 +1,30 @@
+@model Wedding
+<nav>
+    <h1>Plan Your Wedding</h1>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/logout">Logout</a>
+</nav> 
+<form asp-action="CreateWed" asp-controller="Wedding" method="post">
+    <div>
+        <span asp-validation-for="bride"></span>
+        <label asp-for="bride"></label>
+        <input asp-for="bride">
+    </div>
+    <div>
+        <span asp-validation-for="groom"></span>
+        <label asp-for="groom"></label>
+        <input asp-for="groom">
+    </div>
+    <div>
+        <span asp-validation-for="date"></span>
+        <label asp-for="date"></label>
+        <input type="date" name="date">
+    </div>
+    <div>
+        <span asp-validation-for="address"></span>
+        <label asp-for="address"></label>
+        <input asp-for="address">
+    </div>
+    <input type="hidden" asp-for="user_id" value="@ViewBag.LoggedId">
+    <input type="submit" value="Create">
+</form>

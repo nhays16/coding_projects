@@ -1,0 +1,20 @@
+#images{
+    width: 600px;
+    display: inline-block;
+}
+
+
+img{
+    height: 75px;
+    width: 75px;
+}
+
+#pokedex{
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    border: 5px solid red;
+    border-bottom: 15px solid red;
+    vertical-align: top;
+
+}

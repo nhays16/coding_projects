@@ -1,0 +1,11 @@
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\bin\HPD\Debug\netcoreapp2.0\BrightIdeas.deps.json
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\bin\HPD\Debug\netcoreapp2.0\BrightIdeas.runtimeconfig.json
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\bin\HPD\Debug\netcoreapp2.0\BrightIdeas.runtimeconfig.dev.json
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\bin\HPD\Debug\netcoreapp2.0\BrightIdeas.dll
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\bin\HPD\Debug\netcoreapp2.0\BrightIdeas.pdb
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\obj\HPD\Debug\netcoreapp2.0\BrightIdeas.csprojResolveAssemblyReference.cache
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\obj\HPD\Debug\netcoreapp2.0\BrightIdeas.csproj.CoreCompileInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\obj\HPD\Debug\netcoreapp2.0\BrightIdeas.AssemblyInfoInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\obj\HPD\Debug\netcoreapp2.0\BrightIdeas.AssemblyInfo.cs
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\obj\HPD\Debug\netcoreapp2.0\BrightIdeas.dll
+C:\Users\Shannon\Desktop\C_Sharp_Belt\BrightIdeas\obj\HPD\Debug\netcoreapp2.0\BrightIdeas.pdb

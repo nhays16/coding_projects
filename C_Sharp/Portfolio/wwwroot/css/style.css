@@ -1,0 +1,24 @@
+.wrapper{
+    width: 1024px;
+}
+
+.header{
+    text-align: right;
+    margin: 5px 10px 5px 10px;
+}
+
+img{
+    width: 250px;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: purple;
+}
+
+h3{
+    color: green;
+}

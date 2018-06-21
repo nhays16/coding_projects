@@ -1,0 +1,12 @@
+﻿.user-form{
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.form-group span{
+    color: red;
+    font-weight: bold;
+}

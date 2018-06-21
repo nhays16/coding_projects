@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+            {% load static %}
+        <link rel='stylesheet' href='{% static "quotes/style.css" %}' media='screen' title='no title' charset='utf-8'>
+    </head>
+    <body>
+        <div id='wrapper'>
+            <div id='header'>
+                <a href='/logout'>Logout</a>
+            </div>
+            <h1>Welcome, {{user.first_name}}!</h1>
+            <div id='quotes'>
+                <h2>Quotable Quotes</h2>
+                <div class='singlequotes'>
+                    {% for quote in quotes %}
+                        <p>{{quote.author}}: {{quote.message}}</p>
+                        <p>Posted by: <a href="/users/{{quote.adder.id}}">{{quote.adder.first_name}}</a></p>
+                        <form action='/fave/add/{{quote.id}}' method='post'>
+                            {% csrf_token %}
+                            <input type='submit' value='Add to My List'>
+                        </form>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id='rightside'>
+                <div id='faves'>
+                    <h2>Your Favorites</h2>
+                        <div class='singlequotes'>
+                            {% for fave in faves %}
+                                <p>{{fave.author}}: {{fave.message}}</p>
+                                <p>Posted by: <a href="/users/{{fave.adder.id}}">{{fave.adder.first_name}}</a></p>
+                                <form action='/fave/remove/{{fave.id}}' method='post'>
+                                    {% csrf_token %}
+                                    <input type='submit' value='Remove from My List'>
+                                </form>
+                            {% endfor %}
+                        </div>
+                </div>
+                <div id='form'>
+                    <h2>Contribute a Quote:</h2>
+                    {% if messages %}
+                    <ul class='messages'>
+                        {% for message in messages %}
+                        <li {% if message.tags %} class='{{message.tags}}' {% endif %}>Please Note: {{message}}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    <form action='/quotes/create' method='post'>
+                    {% csrf_token %}
+                        Quoted By: <input type='text' name='author'>
+                        Message: <textarea name='quote' rows='10' cols='30'></textarea>
+                        <input type='submit' value='Submit'>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

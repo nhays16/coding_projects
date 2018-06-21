@@ -1,0 +1,34 @@
+﻿@model Trail
+<nav>
+    <h1 style="text-decoration-line:underline; font-style:italic;">Add A New Trail</h1>
+    <a href="/">Go Home</a>
+</nav>
+<form asp-action="create" asp-controller="Home" method="post">
+    <div>
+        <span asp-validation-for="trail_name"></span>
+        <label asp-for="trail_name"></label>
+        <input asp-for="trail_name">
+    </div>
+    <div>
+        <span asp-validation-for="description"></span>
+        <label asp-for="description"></label>
+        <input asp-for="description">
+    </div>
+    <div>
+        <span asp-validation-for="trail_length"></span>
+        <label asp-for="trail_length"></label>
+        <input asp-for="trail_length">
+    </div>
+    <div>
+        <span asp-validation-for="elev_change"></span>
+        <label asp-for="elev_change"></label>
+        <input asp-for="elev_change">
+    </div>
+    <div>
+        <span asp-validation-for="longitude"></span>
+        <span asp-validation-for="latitude"></span>
+        <p><label asp-for="longitude"></label> & <label asp-for="latitude"></label></p>
+        <input asp-for="longitude"><input asp-for="latitude">
+    </div>
+    <input type="submit" value="Create Trail">
+</form>

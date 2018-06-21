@@ -1,0 +1,205 @@
+#container{
+    margin: 0px auto;
+    width: 1050px
+}
+
+#header{
+    background-color: rgb(247, 247, 247);
+}
+
+#name{
+    color: black;
+    text-align: left;
+    vertical-align: center;
+    font-weight: bold;
+    font-size: 40pt;
+    display: inline-block;
+    margin: 0px 200px 0px 0px;
+    font-family: 'Comic Sans MS';
+    padding: 0px 0px 0px 10px;
+}
+
+#nickname{
+    color: black;
+    text-align: right;
+    vertical-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    display: inline-block;
+    margin: 0px 0px 20px 205px;
+    font-family: Arial;
+    padding: 0px 0px 15px 10px;
+}
+
+#main-content{
+    background-image: radial-gradient(rgb(111, 89, 100), rgb(66, 47, 54));
+}
+
+.grabber{
+    border: 5px solid rgb(192, 192, 192);
+    height: 300px;
+    width: 450px;
+    display: inline-block;
+    margin: 20px 10px 20px 20px;
+    vertical-align: top;
+}
+
+.tr-topics{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 204, 218)); 
+    display: inline-block;
+    margin: 20px 20px 20px 10px;
+    padding: 0px 10px 10px 0px;
+    width: 500px;
+    height: 300px;
+}
+
+h1{
+    width: 500px;
+    height:50px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 30pt;
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+    color: white;
+    background-color: rgb(139, 137, 150);
+    font-weight: 10px;
+}
+
+.tr-topics p a{
+    padding-left: 5px;
+    color: black;
+}
+
+.title{
+    color: white;
+    background-color: rgb(139, 137, 150);
+    font-weight: 10px;
+    Font-size: 20pt;
+    font-weight: 10px;
+    height: 50px;
+    width: 300px;
+    padding: 10px 0px 0px 10px;
+    margin: 0px;
+    vertical-align: center;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 204, 218)); 
+    margin: 10px 0px 0px 10px;
+}
+
+.button1{
+    background-color: rgb(64, 125, 97);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0px 0px 100px;
+}
+
+.br-img{
+    width: 310px;
+    display: inline-block;
+}
+
+.br-topic1{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 204, 218)); 
+    display: inline-block;
+    margin: 10px 10px 20px 20px;
+    padding: 0px 10px 10px 0px;
+    width: 300px;
+    height: 600px;
+    vertical-align: top
+}
+
+.br-topic1 .mini-titles{
+    margin-top: 60px;
+}
+
+.mini-titles{
+    color: white;
+    background-color: rgb(139, 137, 150);
+    font-weight: 10px;
+    Font-size: 15pt;
+    font-weight: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 10px 0px 5px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+p{
+    padding-left: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.br-topic2{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 204, 218)); 
+    display: inline-block;
+    margin: 10px 10px 20px 20px;
+    padding: 0px 10px 10px 0px;
+    width: 300px;
+    height: 600px;
+    vertical-align: top
+}
+
+.button2{
+    background-color: rgb(64, 125, 97);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0px 0px 80px;
+}
+
+.br-topic2 .mini-titles{
+    margin-top: 45px;
+}
+
+.br-topic3{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 204, 218)); 
+    display: inline-block;
+    margin: 10px 10px 20px 20px;
+    padding: 0px 10px 10px 0px;
+    width: 300px;
+    height: 600px;
+    vertical-align: top
+}
+
+.button3{
+    background-color: rgb(64, 125, 97);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0px 0px 100px;
+}
+
+#footer{
+    color: black;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#footer img{
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
+#footer a{
+    display: inline;
+    color: black;
+}

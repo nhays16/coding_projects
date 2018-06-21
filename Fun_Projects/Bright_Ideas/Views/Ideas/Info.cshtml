@@ -1,0 +1,26 @@
+@model Idea
+<nav>
+    <a href="/bright_ideas">Bright Ideas</a>
+    <a href="/logout">Logout</a>
+</nav>
+<h2><a href="/users/@Model.creator.user_id">@Model.creator.alias</a> says:</h2>
+<h3>@Model.content</h3>
+<br>
+<p style="font-weight:bold">People who liked this post:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Alias</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var likers in @Model.likes)
+        {
+            <tr>
+                <td><a href="/users/@likers.liker.user_id">@likers.liker.alias</a></td>
+                <td>@likers.liker.name</td>
+            </tr>
+        }
+    </tbody>
+</table>

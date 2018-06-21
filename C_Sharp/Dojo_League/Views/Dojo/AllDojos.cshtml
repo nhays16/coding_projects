@@ -1,0 +1,16 @@
+<h1>All Dojos</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Dojo Name</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var jo in ViewBag.AllDojos)
+    {
+        <tr>
+            <td><a href="/dojo/@dojo.dojo_id">@dojo.dojo_name</a></td>
+        </tr>
+    }
+    </tbody>
+</table>

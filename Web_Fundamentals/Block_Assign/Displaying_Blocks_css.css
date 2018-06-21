@@ -1,0 +1,26 @@
+#wrapper{
+width: 950px;
+background-color: tan;
+}
+.red{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    padding: 10px;
+    outline: 2px solid black;
+    margin: 5px;
+}
+.blue{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    padding: 10px;
+    outline: 2px solid black;
+    margin: 5px; 
+}
+img{
+    width: 150px;
+    display: inline-block;
+}

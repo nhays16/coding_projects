@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Portfolio Contact Page</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <div class='wrapper'>
+            <div class='header'>
+                <a href="/home">Home</a>
+                <a href="/projects">Projects</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <hr>
+            <div class='form'>
+                <h1>If you would like to contact me, please fill out the form below:</h1>
+                <form action="contact" method='post'>
+                    Name:<input type='text' name='name'>
+                    Email:<input type='text' name='email'>
+                    Message:<textarea name='message' rows='10' cols='30'></textarea>
+                    <input type='submit' value='Submit'>
+                </form>
+            </div>
+        </div>   
+    </body>
+</html>

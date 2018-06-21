@@ -1,0 +1,36 @@
+<nav>
+    <h1>Welcome, @ViewBag.Info.first_name</h1>
+    <a href="/logout">Logout</a>
+</nav>
+<form method="post" action="/transaction">
+@{
+    if(TempData["Errors"] != null)
+    {
+        <p>@TempData["Error"]</p>
+    }
+}
+    <label for"amount">Withdrawal(-)/Deposit(+)</label>
+    <input id="amount" type="number" name="amount">
+    <input type="submit" value="Submit">
+</form>
+<p>Current Balance: $@ViewBag.Info.balance</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Amount</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+@{
+    foreach(var deduct in ViewBag.Info.withdrawals)
+    {
+        <tr>
+            <td>$@deduct.amount</td>
+            <td>@deduct.created_at.ToString("D")</td>
+        </tr>
+    }
+}
+    </tbody>
+</table>

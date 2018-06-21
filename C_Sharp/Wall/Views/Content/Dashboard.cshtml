@@ -1,0 +1,46 @@
+﻿@model ContentModels
+<nav>
+    <h1>Welcome to The Wall</h1>
+    <h3>Hello @ViewBag.User["first_name"]</h3>
+    <a href="logout">Logout</a>
+</nav>
+
+<h3>Post a Message:</h3>
+<form asp-action="CreateMessage" asp-controller="Content" method="post">
+    <div class="form-group">
+        <span asp-validation-for="MessagePost.message"></span>
+        <label asp-for="MessagePost.message"></label>
+        <textarea asp-for="MessagePost.message"></textarea>
+    </div>
+    <input type="submit" value="Post a Message">
+</form>
+@{
+    foreach(var message in ViewBag.Messages){
+        <div>
+            <h3>@message["first_name"] @message["last_name"] - @message["created_at"].ToString("D")</h3>
+            <p>@message["message"]</p>
+            <form asp-action="CreateComment" asp-controller="Content" method="post">
+                <div class="form-group">
+                    <span asp-validation-for="CommentPost.comment"></span>
+                    <label asp-for="CommentPost.comment"></label>
+                    <textarea asp-for="CommentPost.comment"></textarea>
+                </div>
+                <input type="hidden" asp-for="CommentPost.messageID" value="@message["message_id"]">
+                <input type="submit" value="Post a Comment">
+            </form>       
+            <hr>
+            @{
+                foreach(var comment in ViewBag.Comments)
+                {
+                    if(comment["message_id"] == message["message_id"])
+                    {
+                        <div>
+                            <h4>@comment["first_name"] @comment["last_name"] - @comment["created_at"].ToString("D")</h4>
+                            <p>@comment["comment"]</p>
+                        </div>
+                    }
+                }
+            }
+        </div>     
+    }
+}

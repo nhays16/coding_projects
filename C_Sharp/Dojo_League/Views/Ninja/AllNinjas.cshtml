@@ -1,0 +1,18 @@
+<h1>Registered Ninjas</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Ninja Name</th>
+            <th>Home Dojo</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var ninja in ViewBag.AllNinjas)
+    {
+        <tr>
+            <td><a href="/ninja/@ninja.ninja_id">@ninja.name</a></td>
+            <td><a href="/dojo/@ninja.dojo_id">@ninja.dojo_name</a></td>
+        </tr>
+    }
+    </tbody>
+</table>

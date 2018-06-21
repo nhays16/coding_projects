@@ -1,0 +1,10 @@
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\bin\HPD\Debug\netcoreapp2.0\MusicLINQ.deps.json
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\bin\HPD\Debug\netcoreapp2.0\MusicLINQ.runtimeconfig.json
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\bin\HPD\Debug\netcoreapp2.0\MusicLINQ.runtimeconfig.dev.json
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\bin\HPD\Debug\netcoreapp2.0\MusicLINQ.dll
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\bin\HPD\Debug\netcoreapp2.0\MusicLINQ.pdb
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\obj\HPD\Debug\netcoreapp2.0\MusicLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\obj\HPD\Debug\netcoreapp2.0\MusicLINQ.AssemblyInfoInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\obj\HPD\Debug\netcoreapp2.0\MusicLINQ.AssemblyInfo.cs
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\obj\HPD\Debug\netcoreapp2.0\MusicLINQ.dll
+C:\Users\Shannon\Desktop\C_Sharp\MusicLINQ\obj\HPD\Debug\netcoreapp2.0\MusicLINQ.pdb

@@ -1,0 +1,10 @@
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\obj\HPD\Debug\netcoreapp2.0\LoginReg.csproj.CoreCompileInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\obj\HPD\Debug\netcoreapp2.0\LoginReg.AssemblyInfoInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\obj\HPD\Debug\netcoreapp2.0\LoginReg.AssemblyInfo.cs
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\bin\HPD\Debug\netcoreapp2.0\LoginReg.deps.json
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\bin\HPD\Debug\netcoreapp2.0\LoginReg.runtimeconfig.json
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\bin\HPD\Debug\netcoreapp2.0\LoginReg.runtimeconfig.dev.json
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\bin\HPD\Debug\netcoreapp2.0\LoginReg.dll
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\bin\HPD\Debug\netcoreapp2.0\LoginReg.pdb
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\obj\HPD\Debug\netcoreapp2.0\LoginReg.dll
+C:\Users\Shannon\Desktop\C_Sharp\LoginReg\obj\HPD\Debug\netcoreapp2.0\LoginReg.pdb

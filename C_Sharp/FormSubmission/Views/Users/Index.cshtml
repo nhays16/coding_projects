@@ -1,0 +1,26 @@
+﻿<div id="wrapper">
+    <h2>Enter your information</h2>
+    <ul>
+        @{ if(ViewBag.Errors != null)
+            {   
+                foreach(var error in ViewBag.Errors)
+                {
+                    if(error.Errors.Count > 0)
+                    {
+                        <li style="color:red">@error.Errors[0].ErrorMessages</li>
+                    }
+                }
+            }
+        }
+    </ul>
+    <form action="/create" method="post">
+        First Name<input type="text" name="FirstName">
+        Last Name<input type="text" name="LastName">
+        Age<input type="number" name="Age">
+        Email Address<input type="text" name="Email">
+        Password<input type="password" name="Password">
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+

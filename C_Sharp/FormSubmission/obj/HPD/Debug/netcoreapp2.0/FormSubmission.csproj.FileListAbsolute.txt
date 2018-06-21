@@ -1,0 +1,10 @@
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\bin\HPD\Debug\netcoreapp2.0\FormSubmission.deps.json
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\bin\HPD\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.json
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\bin\HPD\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.dev.json
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\bin\HPD\Debug\netcoreapp2.0\FormSubmission.dll
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\bin\HPD\Debug\netcoreapp2.0\FormSubmission.pdb
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\obj\HPD\Debug\netcoreapp2.0\FormSubmission.csproj.CoreCompileInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\obj\HPD\Debug\netcoreapp2.0\FormSubmission.AssemblyInfoInputs.cache
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\obj\HPD\Debug\netcoreapp2.0\FormSubmission.AssemblyInfo.cs
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\obj\HPD\Debug\netcoreapp2.0\FormSubmission.dll
+C:\Users\Shannon\Desktop\C_Sharp\FormSubmission\obj\HPD\Debug\netcoreapp2.0\FormSubmission.pdb
